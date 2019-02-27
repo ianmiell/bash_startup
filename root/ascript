@@ -7,3 +7,5 @@ else
 	echo interactive
 fi
 echo in ascript
+echo running exit in ascript
+exit
