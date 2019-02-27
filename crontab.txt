@@ -1,0 +1,1 @@
+* * * * * /root/ascript >> /var/log/script.log

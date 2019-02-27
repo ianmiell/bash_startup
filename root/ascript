@@ -1,0 +1,9 @@
+#!/bin/bash
+date
+if [ -v $PS1 ]
+then
+	echo non-interactive
+else
+	echo interactive
+fi
+echo in ascript
