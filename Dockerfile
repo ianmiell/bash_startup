@@ -4,6 +4,7 @@ RUN rm -f /etc/profile /root/.bashrc /root/.bash_profile /root/.bash_login /root
 ADD etc/profile /etc/profile
 ADD root/bashrc /root/.bashrc
 ADD root/profile /root/.profile
+ADD etc/bash.bashrc /etc/bash.bashrc
 ADD root/bash_profile /root/.bash_profile
 ADD root/bash_login /root/.bash_login
 ADD root/ascript /root/ascript
